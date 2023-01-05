@@ -2,5 +2,6 @@
 
 
 
-## References
-https://hub.docker.com/r/ajilaag/clamav-rest
+## See also
+
+- <https://hub.docker.com/r/ajilaag/clamav-rest>
