@@ -28,29 +28,19 @@ curl -X POST http://localhost:8080/api/scan -H "Content-Type: application/x-www-
 ## Result
 
 - clean file = no KNOWN infections
-
-```{ "Status": "OK", "Description": "" }
-```
+```{ "Status": "OK", "Description": "" }```
 
 - INFECTED
-
-```{ "Status": "FOUND", "Description": "Eicar-Test-Signature" }
-```
+```{ "Status": "FOUND", "Description": "Eicar-Test-Signature" }```
 
 - unable to parse file
-
-```{ "Status": "PARSER-ERROR", "Description": "" }
-```
+```{ "Status": "PARSER-ERROR", "Description": "" }```
 
 - ClamAV returned general error for file
-
-```{ "Status": "ERROR", "Description": "" }
-```
+```{ "Status": "ERROR", "Description": "" }```
 
 - unknown request
-
-```{ "Status": "UNKNOWN-REQUEST", "Description": "" }
-```
+```{ "Status": "UNKNOWN-REQUEST", "Description": "" }```
 
 ## Clamav Container Environment Variables
 
